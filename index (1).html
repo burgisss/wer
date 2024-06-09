@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student CRUD Application</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1 class="mt-4">Student Application</h1>
+        <div id="addStudentForm" class="mt-4">
+            <h3>Add Student</h3>
+            <div class="form-group">
+                <label for="studentName">Student Name</label>
+                <input type="text" class="form-control" id="studentName" placeholder="Enter Student Name">
+            </div>
+            <div class="form-group">
+                <label for="studentId">Student ID</label>
+                <input type="text" class="form-control" id="studentId" placeholder="Enter Student ID">
+            </div>
+            <button class="btn btn-success" onclick="addStudent()">Submit</button>
+        </div>
+        <div id="studentList" class="mt-4"></div>
+    </div>
+    </div>
+
+
+    <!-- Bootstrap JS and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
